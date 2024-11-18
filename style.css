@@ -7,6 +7,7 @@
 .container{
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 .navbar{
@@ -90,11 +91,46 @@
 }
 
 .youtube-premium{
+    height: 70vh;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 20px;
-    padding: 80px;
+    gap: 25px;
+    padding: 40px;
     background-color: white;
+    width: 50%;
+    text-align: center;
+}
+
+.yt-premium-logo{
+    width: 70%;
+}
+
+.premium-heading{
+    font-size: 35px;
+    font-weight: lighter;
+   
+}
+
+.features{
+    background-color: black;
+    height: 200px;
+}
+
+.youtube-premium button{
+    background-color: rgb(0, 174, 255);
+    padding: 7px;
+    border: none;
+    border-radius: 30px;
+}
+
+.youtube-premium button:hover{
+    background-color: rgba(0, 174, 255, 0.804);
+    cursor: pointer;
+}
+
+.premium-links{
+    text-decoration: none;
 }
