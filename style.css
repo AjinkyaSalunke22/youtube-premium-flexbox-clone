@@ -164,3 +164,103 @@
     padding: 10px;
     color: rgba(245, 245, 245, 0.701);
 }
+
+.bg1{
+    background-image: url(./assets/images/bg1.jpeg);
+    height: 150%;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg1-content{
+    width: 350px;
+    margin-left: 30%;
+    gap: 10px;
+}
+
+.bg1-content h3{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.bg1-content p{
+    color: rgba(255, 255, 255, 0.564);
+}
+
+.bg2{
+    background-image: url(./assets/images/bg2.jpeg);
+    height: 150%;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg2-content{
+    width: 350px;
+    margin-right: 30%;
+    gap: 10px;
+}
+
+.bg2-content h3{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.bg2-content p{
+    color: rgba(255, 255, 255, 0.564);
+}
+
+.bg3{
+    background-image: url(./assets/images/bg3.jpeg);
+    height: 150%;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg3-content{
+    width: 350px;
+    margin-left: 30%;
+    gap: 10px;
+}
+
+.bg3-content h3{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.bg3-content p{
+    color: rgba(255, 255, 255, 0.564);
+}
+
+.bg4{
+    background-image: url(./assets/images/bg4.jpeg);
+    height: 150%;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg4-content{
+    width: 350px;
+    margin-right: 30%;
+    gap: 10px;
+}
+
+.bg4-content h3{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.bg4-content p{
+    color: rgba(255, 255, 255, 0.564);
+}
